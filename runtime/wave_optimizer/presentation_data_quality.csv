@@ -1,0 +1,9 @@
+metric,value,description
+prepared_pick_lines,191583,전처리 후 피킹 라인 수
+unique_waves,9143,고유 Wave 수
+unique_source_locations,1199,고유 원본 위치 수
+duplicate_task_ids,0,중복 task_id 수
+missing_wave_id,0,Wave ID 결측
+missing_coordinates,0,좌표 결측
+location_join_rate,0.890289,원본 위치-좌표 결합률
+time_basis,fixed_wave_sequence,시간축 생성 방식

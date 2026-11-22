@@ -1,0 +1,8 @@
+metric,value
+processed_pick_lines,191583.0
+wave_level_samples,9143.0
+unique_stops_mean,8.598053155419446
+unique_stops_median,9.0
+saving_pct_mean,22.67056351567445
+saving_pct_median,26.08695652173913
+saving_pct_p95,45.588235294117645

@@ -1,0 +1,27 @@
+feature,description_ko,available_before_optimization,used_as_model_input
+task_count,Wave 내 피킹 라인 수,True,True
+total_quantity,Wave 내 총 피킹 수량,True,True
+unique_sku_count,고유 SKU 수,True,True
+unique_location_count,고유 원본 저장 위치 수,True,True
+unique_grid_stop_count,시뮬레이터에서 방문해야 하는 고유 피킹 지점 수,True,True
+operator_count,기록된 고유 작업자 수,True,True
+repeated_location_lines,동일 위치에 속한 반복 피킹 라인 수,True,True
+active_zone_count,작업이 존재하는 Zone 수,True,True
+dominant_zone_ratio,가장 작업이 집중된 Zone의 비율,True,True
+zone_entropy,Zone별 작업 분포의 균등도,True,True
+zone_a_ratio,Zone A 작업 비율,True,True
+zone_b_ratio,Zone B 작업 비율,True,True
+zone_c_ratio,Zone C 작업 비율,True,True
+zone_d_ratio,Zone D 작업 비율,True,True
+mean_x,피킹 지점 X좌표 평균,True,True
+mean_y,피킹 지점 Y좌표 평균,True,True
+std_x,피킹 지점 X좌표 표준편차,True,True
+std_y,피킹 지점 Y좌표 표준편차,True,True
+bounding_box_area,피킹 지점을 포함하는 최소 사각형 면적,True,True
+mean_pairwise_distance,피킹 지점 쌍 간 평균 최단거리,True,True
+max_pairwise_distance,피킹 지점 쌍 간 최대 최단거리,True,True
+original_route_distance,기록 순서 기준 depot 왕복 최단경로 거리,True,True
+distance_per_stop,고유 지점당 원본 경로 거리,True,True
+mean_route_jump,기록 순서에서 연속 방문 지점 간 평균 거리,True,True
+max_route_jump,기록 순서에서 가장 긴 단일 이동 거리,True,True
+zone_transition_count,기록 순서의 Zone 전환 횟수,True,True

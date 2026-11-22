@@ -1,0 +1,9 @@
+pygame>=2.6,<3
+streamlit>=1.37,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+xgboost>=2.1,<4
+joblib>=1.4,<2
+plotly>=5.24,<7
+pytest>=8,<10

@@ -1,0 +1,4 @@
+method,mean_distance,median_distance,p95_distance
+recorded_order,87.63863064639615,88.0,140.0
+nearest_neighbor,67.2258558460024,68.0,90.0
+best_of_recorded_nn_2opt,63.245980531554196,66.0,82.0

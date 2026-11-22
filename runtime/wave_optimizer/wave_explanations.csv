@@ -1,0 +1,21 @@
+wave_id,predicted_saving_pct,actual_saving_pct,reason_1,reason_2,reason_3
+33182,56.45757527904795,60.60606060606061,recorded route distance: top 0.1%,cross-zone transitions: top 0.1%,unique pickup stops: top 1.4%
+33333,53.71305850537943,55.913978494623656,recorded route distance: top 0.1%,warehouse spatial span: top 1.9%,unique pickup stops: top 5.2%
+33202,53.16033717190512,51.19047619047619,cross-zone transitions: top 0.3%,recorded route distance: top 0.4%,warehouse spatial span: top 7.3%
+33168,52.21495642461716,44.943820224719104,recorded route distance: top 0.2%,unique pickup stops: top 0.5%,cross-zone transitions: top 0.7%
+34255,51.58462822749054,49.36708860759494,recorded route distance: top 1.2%,cross-zone transitions: top 2.3%,unique pickup stops: top 25.3%
+33183,51.26609457178875,54.651162790697676,recorded route distance: top 0.3%,cross-zone transitions: top 2.3%,unique pickup stops: top 2.7%
+34519,51.163680433823494,51.25,pickup footprint area: top 0.1%,recorded route distance: top 0.9%,cross-zone transitions: top 2.3%
+33581,50.811278973323205,49.382716049382715,recorded route distance: top 0.8%,cross-zone transitions: top 2.3%,warehouse spatial span: top 11.4%
+33746,50.49060015792095,47.61904761904762,cross-zone transitions: top 0.3%,recorded route distance: top 0.4%,unique pickup stops: top 2.7%
+34010,50.4897119114823,50.64935064935065,recorded route distance: top 1.7%,cross-zone transitions: top 2.3%,warehouse spatial span: top 36.6%
+34504,50.20165847350188,53.57142857142857,recorded route distance: top 0.4%,cross-zone transitions: top 0.7%,unique pickup stops: top 1.4%
+33621,50.09809399851704,53.57142857142857,recorded route distance: top 0.4%,cross-zone transitions: top 2.3%,pickup footprint area: top 3.0%
+34510,49.80303155525816,53.65853658536585,recorded route distance: top 0.6%,cross-zone transitions: top 2.3%,unique pickup stops: top 5.2%
+33292,49.756519620818686,48.05194805194805,recorded route distance: top 1.7%,warehouse spatial span: top 7.3%,pickup footprint area: top 8.7%
+34540,49.32372988262091,45.56962025316456,recorded route distance: top 1.2%,pickup footprint area: top 5.7%,cross-zone transitions: top 6.0%
+34198,49.17791892307855,49.333333333333336,recorded route distance: top 2.3%,cross-zone transitions: top 2.3%,pickup footprint area: top 5.7%
+33505,48.87884819441612,48.05194805194805,cross-zone transitions: top 0.7%,recorded route distance: top 1.7%,unique pickup stops: top 8.8%
+33830,48.43438650892766,46.666666666666664,cross-zone transitions: top 0.7%,recorded route distance: top 2.3%,unique pickup stops: top 13.4%
+33374,48.05388843046544,48.68421052631579,recorded route distance: top 2.0%,warehouse spatial span: top 3.6%,cross-zone transitions: top 12.6%
+33236,47.979611683591,45.45454545454545,unique pickup stops: top 1.4%,recorded route distance: top 1.7%,cross-zone transitions: top 6.0%

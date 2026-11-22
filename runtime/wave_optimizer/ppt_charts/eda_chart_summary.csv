@@ -1,0 +1,3 @@
+metric,count,mean,median,p95,minimum,maximum
+unique_picking_stops,9143,8.598053155419446,9.0,16.0,1.0,23.0
+achieved_route_distance_reduction_pct,9143,22.67056351567445,26.08695652173913,45.588235294117645,0.0,60.60606060606061

@@ -1,0 +1,48 @@
+{
+  "selected_model": "hist_gradient_boosting",
+  "selection_rule": "lowest validation MAE; captured savings and latency are deterministic tie-breakers",
+  "coverage": 0.2,
+  "split": {
+    "train_waves": 6400,
+    "validation_waves": 1371,
+    "test_waves": 1372,
+    "method": "chronological 70/15/15 holdout"
+  },
+  "validation_best": {
+    "model": "hist_gradient_boosting",
+    "mae": 2.3153508472245603,
+    "rmse": 3.351829680179243,
+    "r2": 0.9578909335142476,
+    "spearman": 0.9658939699120177,
+    "top20_recall_pct": 85.0909090909091,
+    "captured_savings_pct_at_20": 52.161239869188115,
+    "distance_reduction_pct_at_20": 13.236036946168278,
+    "inference_ms_per_wave": 0.013606272804952293
+  },
+  "test_evaluation": {
+    "model": "hist_gradient_boosting",
+    "mae": 2.4918380926857755,
+    "rmse": 3.409070058395418,
+    "r2": 0.9509779250075843,
+    "spearman": 0.9688895988848628,
+    "top20_recall_pct": 82.9090909090909,
+    "captured_savings_pct_at_20": 49.53467217129662,
+    "distance_reduction_pct_at_20": 12.221819374665493,
+    "inference_ms_per_wave": 0.01748309037295162
+  },
+  "adaptive_policy": {
+    "ml_selected_waves": 275,
+    "ml_captured_savings_pct": 49.53467217129662,
+    "ml_end_to_end_distance_reduction_pct": 12.221819374665493,
+    "optimize_all_end_to_end_distance_reduction_pct": 24.67326185666684,
+    "optimization_workload_reduction_pct": 79.95626822157435
+  },
+  "artifacts": {
+    "model": "models\\wave_benefit_model.joblib",
+    "validation_leaderboard": "runtime\\wave_optimizer\\wave_model_leaderboard.csv",
+    "adaptive_policy_leaderboard": "runtime\\wave_optimizer\\wave_adaptive_policy_leaderboard.csv",
+    "test_predictions": "runtime\\wave_optimizer\\wave_test_predictions.csv",
+    "feature_importance": "runtime\\wave_optimizer\\wave_feature_importance.csv",
+    "explanations": "runtime\\wave_optimizer\\wave_explanations.csv"
+  }
+}
